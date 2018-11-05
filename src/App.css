@@ -1,3 +1,7 @@
+.about {
+  padding-left: 35px;
+}
+
 .App {
   text-align: center;
 }
@@ -20,6 +24,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
 }
 
 @keyframes App-logo-spin {
