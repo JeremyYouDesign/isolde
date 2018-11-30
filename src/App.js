@@ -1,8 +1,9 @@
 import React from 'react';
-import { Col, Container, Row } from './components/Grid';
 import Nav from './components/Nav';
 import Home from './pages/Home';
 import About from './pages/About';
+import Trend from './pages/Trend';
+import Beauty from './pages/Beauty';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -14,6 +15,8 @@ const App = () => (
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/about" component={ About } />
+          <Route exact path="/trend" component={ Trend } />
+          <Route exact path="/beauty" component={ Beauty } />
         </Switch>
     </div>
   </Router>

@@ -30,6 +30,23 @@ body {
   font-family: "Cormorant Garamond", serif;
 }
 
+.collapsible {
+  margin: 0;
+}
+
+.collapsible-header {
+  font-size: 25px;
+}
+
+.section-title {
+  padding-left: 10px;
+}
+
+.trend-background > .parallax > img {
+  height: auto;
+  max-width: auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

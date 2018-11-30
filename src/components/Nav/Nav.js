@@ -8,12 +8,12 @@ const Nav = () => (
         <nav className="white z-depth-1" role="navigation">
             <div className="nav-wrapper container">
                 <ul className="left hide-on-med-and-down">
-                    <li><a className="tab waves-effect waves-light black-text">TREND</a></li>
-                    <li><a className="tab waves-effect waves-light black-text">SPOTLIGHT</a></li>
-                    <li><a className="tab waves-effect waves-light black-text">BEAUTY</a></li>
-                    <li><a className="tab waves-effect waves-light black-text">TOP SHELF</a></li>
-                    <li><a className="tab waves-effect waves-light black-text">TRISTAN+ISOLDE</a></li>
-                    <li><Link className="tab waves-effect waves-light black-text" to="/about">ABOUT</Link></li>
+                    <li><Link to="/trend" className="tab waves-effect waves-light black-text">TREND</Link></li>
+                    <li><Link to="/spotlight" className="tab waves-effect waves-light black-text">SPOTLIGHT</Link></li>
+                    <li><Link to="/beauty" className="tab waves-effect waves-light black-text">BEAUTY</Link></li>
+                    <li><Link to="/topshelf" className="tab waves-effect waves-light black-text">TOP SHELF</Link></li>
+                    <li><Link to="/store" className="tab waves-effect waves-light black-text">TRISTAN+ISOLDE</Link></li>
+                    <li><Link to="/about" className="tab waves-effect waves-light black-text">ABOUT</Link></li>
                 </ul>
                 {/* <ul id="nav-mobile" class="sidenav">
                     <li><a href="#">Navbar Link</a></li>
