@@ -42,6 +42,12 @@ body {
   padding-left: 10px;
 }
 
+#store-logo {
+  width: 350px;
+  margin-left: 585px;
+  margin-top: 10px;
+}
+
 .trend-background > .parallax > img {
   height: auto;
   max-width: auto;

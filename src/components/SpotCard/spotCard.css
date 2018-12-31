@@ -1,0 +1,22 @@
+.spotCard {
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    float: left;
+}
+
+.card-content {
+    padding: 12px !important;
+}
+
+.card-title {
+    font-size: 16px !important;
+}
+
+.material-icons {
+    margin-left: 5px !important;
+}
+
+.card-reveal {
+    padding: 12px !important;
+}
