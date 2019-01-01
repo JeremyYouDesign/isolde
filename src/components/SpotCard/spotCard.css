@@ -17,6 +17,10 @@
     margin-left: 5px !important;
 }
 
+.modal-image {
+    max-width: 350px;
+}
+
 .card-reveal {
     padding: 12px !important;
 }

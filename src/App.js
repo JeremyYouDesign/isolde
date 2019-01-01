@@ -5,7 +5,8 @@ import About from './pages/About';
 import Trend from './pages/Trend';
 import Beauty from './pages/Beauty';
 import Spotlight from './pages/Spotlight';
-import Store from "./pages/Store";
+import Store from './pages/Store';
+import TopShelf from './pages/TopShelf'
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route exact path="/beauty" component={ Beauty } />
           <Route exact path="/spotlight" component={ Spotlight } />
           <Route exact path="/store" component={ Store } />
+          <Route exact path="/topshelf" component={ TopShelf } />
         </Switch>
     </div>
   </Router>

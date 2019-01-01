@@ -1,4 +1,6 @@
 import React from 'react';
+import { Modal } from 'react-materialize';
+import { Row, Col } from '../Grid';
 import './spotCard.css';
 
 const SpotCard = (props) => (
@@ -13,7 +15,20 @@ const SpotCard = (props) => (
             <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
             <span class="grey-text text-darken-4">{props.title}</span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            <p><a href="#">Get the look</a></p>
+            <Modal
+                header={props.title}
+                fixedFooter
+                trigger={ <p><a href="#">Get the look</a></p> }>
+                <Row>
+                    <Col size="6">
+                        <img className="modal-image" src={ props.image } alt="look" />
+                    </Col>
+                    <Col size="6">
+                        <h5>Where to shop</h5>
+                        <hr />
+                    </Col>
+                </Row>
+            </Modal>
         </div>
     </div>
 );

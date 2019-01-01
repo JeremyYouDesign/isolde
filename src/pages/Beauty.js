@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Parallax, Collapsible, CollapsibleItem } from 'react-materialize';
 import { Col, Row } from '../components/Grid';
 import background from '../images/beautyBackground.jpg';
+import backgroundTwo from '../images/beautyBackgroundTwo.jpg';
 
 class Beauty extends Component {
 
@@ -32,6 +33,7 @@ class Beauty extends Component {
                                 </CollapsibleItem> 
                             </Collapsible>
                         </div>
+                        <Parallax imageSrc={ backgroundTwo } />
                     </Col>
                 </Row>
             </div>
